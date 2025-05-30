@@ -1,15 +1,24 @@
 # MonographProduct
-Development of a Natural Language Processing Model that summarizes text in order to explain its Creation Process for Beginners.
+
+## Development of a Natural Language Processing Model that Summarizes Text to Explain its Creation Process for Beginners.
+
 ## Recommendations
-The python files are in version 3.7 and they are in a ipynb format of python which is recommended to be opened in jupyter lab, as it does not work in Google Colab.
-## File list
-1. Requirements
-2. MonographInitial
-3. MonographTesting
+The Python files are in version 3.7 and are in `.ipynb` (Jupyter Notebook) format. It is recommended to open them in Jupyter Lab, as they do not work in Google Colab.
+
+## File List
+* Requirements
+* MonographInitial
+* TestingMonograph
+* Training_Checkpoints
 
 ### Requirements
-This file has the dependencies (libraries/pips) necessary to run the model.
+This file contains the necessary dependencies (libraries/pips) to run the model.
+
 ### MonographInitial
-This file has the whole preprocessing and processing (training included) of the model.
-### MonographTesting
-This file is in which you will be able to summarize texts
+This file includes the entire preprocessing and processing of the model, training included.
+
+### TestingMonograph
+This file is where you will be able to summarize texts.
+
+### Training_Checkpoints
+This file contains the weights of the model, trained until epoch 50. It is necessary to be able to run the testing monograph.
